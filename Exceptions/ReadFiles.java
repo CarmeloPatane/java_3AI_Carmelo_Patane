@@ -29,6 +29,9 @@ public class ReadFiles {
         } catch (NoSuchElementException e){
             System.out.println("Nel file non sono presenti elementi");
         }
+         finally{
+
+        }
         
     } 
 }
