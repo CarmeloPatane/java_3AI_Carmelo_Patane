@@ -1,4 +1,4 @@
-public package Exceptions;
+package Exceptions;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.NoSuchElementException;
@@ -14,11 +14,13 @@ public class ReadFiles {
                 String row = scanner.nextLine();
                 System.out.println(row);
             }
+            scanner.close();
             System.out.println("Il file contiene " + n + "righe");
         } catch (FileNotFoundException e) {
             System.out.println("File non trovato");
         } catch (NoSuchElementException e){
             System.out.println("Nel file non sono presenti elementi");
         }
+        
     } 
 }
