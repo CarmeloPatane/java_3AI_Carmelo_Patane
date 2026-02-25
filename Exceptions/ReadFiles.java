@@ -16,8 +16,10 @@ public class ReadFiles {
                 String row = scanner.nextLine();
                 buffer[n] = Integer.parseInt(row);
                 n++;
-                sum += buffer[n];
                 System.out.println(row);
+            }
+            for(int i = 0; i < n; i++){
+                sum += buffer[i];
             }
             scanner.close();
             System.out.println("Il file contiene " + n + " righe");
