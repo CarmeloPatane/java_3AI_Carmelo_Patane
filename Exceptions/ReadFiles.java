@@ -30,7 +30,7 @@ public class ReadFiles {
             System.out.println("Nel file non sono presenti elementi");
         }
          finally{
-
+            
         }
         
     } 
